@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 25px;
+    height: 60px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(255, 255, 36);
+    position: sticky;
+}
+.col-title p{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 18px;
+}
+.col-title{
+    display:flex;
+    justify-content: center;
+
+}
+.col-title img{
+    height: 60px;
+    margin-top: 10px;
+}
+.col-img img{
+     height: 40px;
+     padding: 0 10px;
+     cursor: pointer;
+}
+.col-menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.col-menu li{
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-bar .ham-menu{
+    margin-right: 15px;
+    cursor: pointer;
+    position: fixed;
+    
+}
+
+/* Responsive nav bar */
+@media screen and (max-width: 768px){
+    .nav-bar{
